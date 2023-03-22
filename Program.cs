@@ -1,19 +1,30 @@
 ﻿using System;
-using System.IO;
 
 namespace Tasks
 {
-    class Program
+    class Pessoa
     {
+        
+    public string Name { get; set; }
+    public int Idade { get; set; }
     
     static void Main()
         
         {
-
-
+           Pessoa pessoa = new Pessoa();
+           pessoa.Name = "James";
+           pessoa.Idade = 25;
+           pessoa.Mensagem();
         }
+
+    public void Mensagem()
+        {
+        Console.WriteLine("Olá "+Name+" você tem "+Idade+" anos");
+        }
+
     }
 }    
+     
             // IDADE COLOR 
             /*
             Console.Write("Digite sua Idade: ");
