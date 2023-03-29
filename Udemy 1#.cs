@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace TASK
 {
-    class Test
+    class Udemy
     {
 
     static void Main()
@@ -25,8 +25,15 @@ namespace TASK
             +"Registro: "+ idade +" anos de idade, codigo "+codigo+" e genero '"+genero+"'\n" 
             +"Medida com oito casas decimais: "+medida +"\n"+"Arredondado (três casas decimais): "+medida.ToString("F3")+"\n" 
             +"Separador decimal invariant culture: "+medida.ToString("", CultureInfo.InvariantCulture));
-            
+        
             /*
+            char letra = '\u10DB';
+            object letra = "maqueico";
+            int n1 = int.MinValue;
+            int n2 = int.MaxValue;
+            SByte n3 = SByte.MinValue;
+            decimal n4 = decimal.MaxValue;
+
             string name = "Marry";
             int idade = 32;
             double saldo = 10.57632;
