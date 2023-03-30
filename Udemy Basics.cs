@@ -11,7 +11,6 @@ namespace TASK
         
         {   
             //BOM DIA BOA TARDE BOA NOITE
-
             
             System.Console.WriteLine("Qual a hora?");
             int hora = int.Parse(Console.ReadLine());
