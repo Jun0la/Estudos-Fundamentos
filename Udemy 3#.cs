@@ -8,7 +8,7 @@ namespace TASK
     static void Main()
         
         {
-            /*
+            
             // CLASS TRIANGULO             
             class Triangle
             
@@ -54,7 +54,7 @@ namespace TASK
 
             else { Console.WriteLine("Maior área: Y"); 
             }
-            */
+            
  
         }
     } 
