@@ -9,30 +9,30 @@ namespace UdemyOrientacaoObject
 {
     class Produto
     {
-       public string Nome;
-       public double Preco;
-       public int Quantidade;    
+       private string _nome;
+       public double Preco {  get;  private set;  }
+       public int Quantidade { get; private set; }
 
-    public Produto() { }
+        public Produto ( ) {  }  
 
     public Produto(string nome, double preco, int quantidade)
         {
-            Nome = nome;
+            _nome = nome;
             Preco = preco;
-            Quantidade = quantidade;    
+            Quantidade = quantidade;
         }
 
-    public Produto(string nome, double preco)
+    public string Nome
         {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = 5;
+            get { return _nome; }
+            set { if (value != null && value.Length > 1) _nome = value; }
         }
 
-    public double ValorTotalEmEstoque()
-        {
-            return Preco * Quantidade;
-        }
+    public double GetPreco() {return Preco;}
+
+    public int GetQuantidade() {return Quantidade;}
+
+     public double ValorTotalEmEstoque() {return Preco * Quantidade;}
 
     public void AdicionarProdutos(int quantidade) 
         {
@@ -46,13 +46,12 @@ namespace UdemyOrientacaoObject
 
     public override string ToString()
         {
-            return Nome + ", $" 
+            return _nome + ", $" 
                 + Preco.ToString("F2", CultureInfo.InvariantCulture)
                 + ", "
                 + Quantidade
                 + " unidades, Total: $ "
                 + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
-
     }
 }

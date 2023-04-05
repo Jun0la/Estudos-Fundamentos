@@ -6,24 +6,28 @@ namespace TASK
 {
     class Basics_2
     {
-
         static void Main()
 
         {
+            /*
             Console.WriteLine("Entre os dados do produto:");
             Console.Write("Nome: ");
-
             string nome = Console.ReadLine();
             Console.Write("Preço: ");
-
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no Estoque: ");
+            int quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            */
 
-            Produto p = new Produto(nome, preco);
-            Produto p2 = new Produto(nome, preco);
-            Produto p3 = new Produto { Nome = "TV", Preco = 500.00, Quantidade = 20 };
+            Produto p = new Produto("TV", 500.25, 10);
 
+            p.Nome = "TV 4K";
 
+            Console.WriteLine( p.Nome);
+            Console.WriteLine(p.Preco);
+            Console.WriteLine(p.Quantidade);
 
+            /*
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
 
@@ -40,6 +44,7 @@ namespace TASK
            
             Console.WriteLine();
             Console.WriteLine("Dados Atualizados" + p);       
+            */
         }
     }
 }
