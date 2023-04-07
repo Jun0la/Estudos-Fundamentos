@@ -55,5 +55,12 @@ class Basics_5
             Console.WriteLine( "Average Price = " + avg.ToString("F2", CultureInfo.InvariantCulture));
         }
         */
+
+            string[] vect = new string[] { "Marry", "Bob", "Alex" };
+
+            foreach (string obj in vect)
+            {
+                Console.WriteLine(obj);
+            }
     }
 }
