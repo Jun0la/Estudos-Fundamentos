@@ -39,6 +39,8 @@ class Program
                 Console.WriteLine(obj);
             }
             */
+
+            //double[,] mat = new double[2, 3]; 
         }
     }
 }
