@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\BANKO\\Bank\\Bank\\Bank.csproj",
+      "projectUniqueName": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\Udemy Bank\\Bank\\Bank\\Bank.csproj",
       "projectName": "Bank",
-      "projectPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\BANKO\\Bank\\Bank\\Bank.csproj",
+      "projectPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\Udemy Bank\\Bank\\Bank\\Bank.csproj",
       "packagesPath": "C:\\Users\\ju-sh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\BANKO\\Bank\\Bank\\obj\\",
+      "outputPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\Udemy Bank\\Bank\\Bank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

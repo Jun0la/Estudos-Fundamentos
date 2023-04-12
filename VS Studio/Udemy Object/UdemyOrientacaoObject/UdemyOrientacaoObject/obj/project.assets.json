@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\UDEMY# OBJECT\\UdemyOrientacaoObject\\UdemyOrientacaoObject\\UdemyOrientacaoObject.csproj",
+      "projectUniqueName": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\Udemy Object\\UdemyOrientacaoObject\\UdemyOrientacaoObject\\UdemyOrientacaoObject.csproj",
       "projectName": "UdemyOrientacaoObject",
-      "projectPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\UDEMY# OBJECT\\UdemyOrientacaoObject\\UdemyOrientacaoObject\\UdemyOrientacaoObject.csproj",
+      "projectPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\Udemy Object\\UdemyOrientacaoObject\\UdemyOrientacaoObject\\UdemyOrientacaoObject.csproj",
       "packagesPath": "C:\\Users\\ju-sh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\UDEMY# OBJECT\\UdemyOrientacaoObject\\UdemyOrientacaoObject\\obj\\",
+      "outputPath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\TASK\\VS Studio\\Udemy Object\\UdemyOrientacaoObject\\UdemyOrientacaoObject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
